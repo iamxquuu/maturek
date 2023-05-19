@@ -27,6 +27,14 @@ struct mainScreenView: View {
                     }
                 }
             
+            quizView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "chart.bar.doc.horizontal")
+                        
+                    }
+                }
+            
             accountStatsView()
                 .tabItem {
                     VStack {
@@ -42,7 +50,7 @@ struct mainScreenView: View {
                         
                     }
                 }
-           
+            
             
            
             

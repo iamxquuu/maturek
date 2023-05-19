@@ -16,6 +16,7 @@
 		0E2D5CEF29F30C9C009AEC55 /* listOfSubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CEE29F30C9C009AEC55 /* listOfSubjectsView.swift */; };
 		0E2D5CF129F30D52009AEC55 /* accountStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF029F30D52009AEC55 /* accountStatsView.swift */; };
 		0E2D5CF329F30F6F009AEC55 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF229F30F6F009AEC55 /* quiz.json */; };
+		0EB68AD22A17B5B9004C4741 /* quizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB68AD12A17B5B9004C4741 /* quizView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0E2D5CEE29F30C9C009AEC55 /* listOfSubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listOfSubjectsView.swift; sourceTree = "<group>"; };
 		0E2D5CF029F30D52009AEC55 /* accountStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountStatsView.swift; sourceTree = "<group>"; };
 		0E2D5CF229F30F6F009AEC55 /* quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		0EB68AD12A17B5B9004C4741 /* quizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				0E2D5CEB29F30C6E009AEC55 /* newsView.swift */,
 				0E2D5CEE29F30C9C009AEC55 /* listOfSubjectsView.swift */,
 				0E2D5CF029F30D52009AEC55 /* accountStatsView.swift */,
+				0EB68AD12A17B5B9004C4741 /* quizView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				0E2D5CF129F30D52009AEC55 /* accountStatsView.swift in Sources */,
 				0E2D5CEC29F30C6E009AEC55 /* newsView.swift in Sources */,
 				0E2D5CD829F30987009AEC55 /* mainScreenView.swift in Sources */,
+				0EB68AD22A17B5B9004C4741 /* quizView.swift in Sources */,
 				0E2D5CD629F30987009AEC55 /* maturekApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
