@@ -10,10 +10,15 @@ import SwiftUI
 struct accountStatsView: View {
     var body: some View {
         VStack(alignment: .leading) {
+            HStack{
+                Text("KONTO")
+                    .bold()
+                    .font(.largeTitle)
+                Image(systemName: "person.crop.circle.fill")
+                    .resizable()
+                    .frame(width: 25, height: 25)
+            }
             
-            Text("KONTO")
-                .bold()
-                .font(.largeTitle)
                 
                 
             HStack {
@@ -79,11 +84,18 @@ struct accountStatsView: View {
             
             Group {
                 VStack(alignment: .leading){
-                    Text("ZNAJOMI")
-                        .bold()
-                        .font(.largeTitle)
-                        .padding(.top, 10)
-                        .padding(.bottom, 10)
+                    HStack{
+                        Text("ZNAJOMI")
+                            .bold()
+                            .font(.largeTitle)
+                            .padding(.top, 10)
+                            .padding(.bottom, 10)
+                        Text("(5)")
+                            .bold()
+                            .font(.system(size: 17))
+                            
+                    }
+                    
                     HStack{
                         Image("pierwszeprof")
                             .resizable()
@@ -117,10 +129,17 @@ struct accountStatsView: View {
             }
             Group {
                 VStack(alignment: .leading){
-                    Text("ODZNAKI")
-                        .bold()
-                        .font(.largeTitle)
-                        .padding(.bottom, 10)
+                    HStack{
+                        Text("ODZNAKI")
+                            .bold()
+                            .font(.largeTitle)
+                            .padding(.bottom, 10)
+                        Text("(5/84)")
+                            .font(.system(size: 17))
+                            .padding(.bottom, 10)
+                            .bold()
+                    }
+                    
                     HStack{
                         Image("pierwszeprof")
                             .resizable()
