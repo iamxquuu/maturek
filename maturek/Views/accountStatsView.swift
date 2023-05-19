@@ -9,7 +9,151 @@ import SwiftUI
 
 struct accountStatsView: View {
     var body: some View {
-        Text("w tym miejscu pojawia sie sttatystki i profil uzytkownika")
+        VStack(alignment: .leading) {
+            
+            Text("KONTO")
+                .bold()
+                .font(.largeTitle)
+                
+                
+            HStack {
+            
+                Image("pierwszeprof")
+                    .resizable()
+                    
+                    .frame(width: 100, height: 100)
+                    .clipShape(Circle())
+                    .padding(.bottom, 20)
+                    .padding(.trailing, 30)
+                
+                VStack(alignment: .leading) {
+                    Text("Krzysztof Jaki")
+                        .bold()
+                        .font(.system(size: 28))
+                        
+                    Text("@krzsztof32")
+                        .bold()
+                        .foregroundColor(.gray)
+                        .font(.system(size: 24))
+                        
+                    
+                    
+                }
+                
+            }
+            
+            //czy napewno to potrzeba?
+            
+            Text("Twój obecny pakiet: ")
+                .bold()
+                .font(.system(size: 22))
+            Text("Pakiet MATUREK+")
+                .bold()
+                .foregroundColor(.green)
+            
+            
+            
+            Group {
+                Text("STATYSTYKI")
+                    .bold()
+                    .font(.largeTitle)
+                    .padding(.top, 10)
+                    .padding(.bottom, 10)
+                HStack{
+                    Image(systemName: "checkmark")
+                    Text("Rozwiazanych zadan: 689")
+                    Text("(560)")
+                        .foregroundColor(.green)
+                }
+                HStack{
+                    Image(systemName: "clock")
+                    Text("Czas spedzony w aplikacji: 54h 20min")
+                }
+                
+                HStack{
+                    Image(systemName: "calendar")
+                    Text("Jesteś z nami już: 7 miesięcy")
+                }
+                
+            }
+            
+            Group {
+                VStack(alignment: .leading){
+                    Text("ZNAJOMI")
+                        .bold()
+                        .font(.largeTitle)
+                        .padding(.top, 10)
+                        .padding(.bottom, 10)
+                    HStack{
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            
+                    }
+                        
+                }
+                
+            }
+            Group {
+                VStack(alignment: .leading){
+                    Text("ODZNAKI")
+                        .bold()
+                        .font(.largeTitle)
+                        .padding(.bottom, 10)
+                    HStack{
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            .padding(.bottom, 20)
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            .padding(.bottom, 20)
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            .padding(.bottom, 20)
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            .padding(.bottom, 20)
+                        Image("pierwszeprof")
+                            .resizable()
+                            .frame(width: 60, height: 60)
+                            .clipShape(Circle())
+                            .padding(.bottom, 20)
+                    }
+                        
+                }
+                
+            }
+        }.padding()
+        
     }
 }
 
