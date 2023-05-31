@@ -17,6 +17,10 @@ struct accountStatsView: View {
                 Image(systemName: "person.crop.circle.fill")
                     .resizable()
                     .frame(width: 25, height: 25)
+                Spacer()
+                Image(systemName: "gear")
+                    .resizable()
+                    .frame(width: 25, height: 25)
             }
             
                 
@@ -47,7 +51,7 @@ struct accountStatsView: View {
                 
             }
             
-            //czy napewno to potrzeba?
+           
             
             Text("Twój obecny pakiet: ")
                 .bold()

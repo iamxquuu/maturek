@@ -7,30 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E176ACB2A27AE960053489F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E176AC62A27AE8F0053489F /* ContentView.swift */; };
+		0E176ACC2A27AE960053489F /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E176AC72A27AE910053489F /* LaunchView.swift */; };
+		0E176ACD2A27AE960053489F /* CreateForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E176AC82A27AE930053489F /* CreateForm.swift */; };
+		0E176ACF2A27AE960053489F /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E176ACA2A27AE960053489F /* LoginForm.swift */; };
 		0E2D5CD629F30987009AEC55 /* maturekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CD529F30987009AEC55 /* maturekApp.swift */; };
 		0E2D5CD829F30987009AEC55 /* mainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CD729F30987009AEC55 /* mainScreenView.swift */; };
 		0E2D5CDA29F30989009AEC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2D5CD929F30989009AEC55 /* Assets.xcassets */; };
 		0E2D5CDD29F30989009AEC55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2D5CDC29F30989009AEC55 /* Preview Assets.xcassets */; };
-		0E2D5CEA29F30BEB009AEC55 /* settingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CE929F30BEB009AEC55 /* settingsView.swift */; };
 		0E2D5CEC29F30C6E009AEC55 /* newsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CEB29F30C6E009AEC55 /* newsView.swift */; };
 		0E2D5CEF29F30C9C009AEC55 /* listOfSubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CEE29F30C9C009AEC55 /* listOfSubjectsView.swift */; };
 		0E2D5CF329F30F6F009AEC55 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF229F30F6F009AEC55 /* quiz.json */; };
 		0E7B1EE62A1803D400ADC846 /* accountStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF029F30D52009AEC55 /* accountStatsView.swift */; };
-		0EB68AD22A17B5B9004C4741 /* quizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB68AD12A17B5B9004C4741 /* quizView.swift */; };
+		0EF47CC62A27ABFC00E9F698 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF47CC52A27ABFC00E9F698 /* GoogleService-Info.plist */; };
+		22C2FA08777DE3FD5044B151 /* Pods_maturek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DCF6E1AC888F6DC0618278 /* Pods_maturek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E176AC62A27AE8F0053489F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E176AC72A27AE910053489F /* LaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		0E176AC82A27AE930053489F /* CreateForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateForm.swift; sourceTree = "<group>"; };
+		0E176ACA2A27AE960053489F /* LoginForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		0E2D5CD229F30987009AEC55 /* maturek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maturek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2D5CD529F30987009AEC55 /* maturekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maturekApp.swift; sourceTree = "<group>"; };
 		0E2D5CD729F30987009AEC55 /* mainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreenView.swift; sourceTree = "<group>"; };
 		0E2D5CD929F30989009AEC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2D5CDC29F30989009AEC55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0E2D5CE929F30BEB009AEC55 /* settingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsView.swift; sourceTree = "<group>"; };
 		0E2D5CEB29F30C6E009AEC55 /* newsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsView.swift; sourceTree = "<group>"; };
 		0E2D5CEE29F30C9C009AEC55 /* listOfSubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listOfSubjectsView.swift; sourceTree = "<group>"; };
 		0E2D5CF029F30D52009AEC55 /* accountStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountStatsView.swift; sourceTree = "<group>"; };
 		0E2D5CF229F30F6F009AEC55 /* quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
-		0EB68AD12A17B5B9004C4741 /* quizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizView.swift; sourceTree = "<group>"; };
+		0EF47CC52A27ABFC00E9F698 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E07B32CAE2DB3D5A093AB70 /* Pods-maturek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maturek.release.xcconfig"; path = "Target Support Files/Pods-maturek/Pods-maturek.release.xcconfig"; sourceTree = "<group>"; };
+		923CFA988B90826C22E17A33 /* Pods-maturek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maturek.debug.xcconfig"; path = "Target Support Files/Pods-maturek/Pods-maturek.debug.xcconfig"; sourceTree = "<group>"; };
+		D3DCF6E1AC888F6DC0618278 /* Pods_maturek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_maturek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,17 +48,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C2FA08777DE3FD5044B151 /* Pods_maturek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E176AC42A27ADEB0053489F /* ekran startowy */ = {
+			isa = PBXGroup;
+			children = (
+				0E2D5CF029F30D52009AEC55 /* accountStatsView.swift */,
+				0E2D5CEE29F30C9C009AEC55 /* listOfSubjectsView.swift */,
+				0E2D5CEB29F30C6E009AEC55 /* newsView.swift */,
+				0E2D5CD729F30987009AEC55 /* mainScreenView.swift */,
+			);
+			path = "ekran startowy";
+			sourceTree = "<group>";
+		};
+		0E176AC52A27AE3A0053489F /* ekran logowania  */ = {
+			isa = PBXGroup;
+			children = (
+				0E176AC62A27AE8F0053489F /* ContentView.swift */,
+				0E176AC82A27AE930053489F /* CreateForm.swift */,
+				0E176AC72A27AE910053489F /* LaunchView.swift */,
+				0E176ACA2A27AE960053489F /* LoginForm.swift */,
+			);
+			path = "ekran logowania ";
+			sourceTree = "<group>";
+		};
 		0E2D5CC929F30987009AEC55 = {
 			isa = PBXGroup;
 			children = (
 				0E2D5CD429F30987009AEC55 /* maturek */,
 				0E2D5CD329F30987009AEC55 /* Products */,
+				E5BE04C3680526E8232D1A15 /* Pods */,
+				ACACA8EDC95A60862ED4A6BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +105,7 @@
 				0E2D5CE629F30B85009AEC55 /* Services */,
 				0E2D5CE729F30B8D009AEC55 /* Data */,
 				0E2D5CE829F30B9A009AEC55 /* Utilities */,
+				0EF47CC52A27ABFC00E9F698 /* GoogleService-Info.plist */,
 				0E2D5CD929F30989009AEC55 /* Assets.xcassets */,
 				0E2D5CDB29F30989009AEC55 /* Preview Content */,
 			);
@@ -87,12 +123,8 @@
 		0E2D5CE329F30A8A009AEC55 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0E2D5CD729F30987009AEC55 /* mainScreenView.swift */,
-				0E2D5CE929F30BEB009AEC55 /* settingsView.swift */,
-				0E2D5CEB29F30C6E009AEC55 /* newsView.swift */,
-				0E2D5CEE29F30C9C009AEC55 /* listOfSubjectsView.swift */,
-				0E2D5CF029F30D52009AEC55 /* accountStatsView.swift */,
-				0EB68AD12A17B5B9004C4741 /* quizView.swift */,
+				0E176AC52A27AE3A0053489F /* ekran logowania  */,
+				0E176AC42A27ADEB0053489F /* ekran startowy */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -133,6 +165,23 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		ACACA8EDC95A60862ED4A6BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3DCF6E1AC888F6DC0618278 /* Pods_maturek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5BE04C3680526E8232D1A15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				923CFA988B90826C22E17A33 /* Pods-maturek.debug.xcconfig */,
+				2E07B32CAE2DB3D5A093AB70 /* Pods-maturek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E2D5CE029F30989009AEC55 /* Build configuration list for PBXNativeTarget "maturek" */;
 			buildPhases = (
+				62F4DBC36E639535241DCF7B /* [CP] Check Pods Manifest.lock */,
 				0E2D5CCE29F30987009AEC55 /* Sources */,
 				0E2D5CCF29F30987009AEC55 /* Frameworks */,
 				0E2D5CD029F30987009AEC55 /* Resources */,
+				3092C4E69A490E3F7112D1D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E2D5CDD29F30989009AEC55 /* Preview Assets.xcassets in Resources */,
+				0EF47CC62A27ABFC00E9F698 /* GoogleService-Info.plist in Resources */,
 				0E2D5CDA29F30989009AEC55 /* Assets.xcassets in Resources */,
 				0E2D5CF329F30F6F009AEC55 /* quiz.json in Resources */,
 			);
@@ -199,17 +251,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3092C4E69A490E3F7112D1D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maturek/Pods-maturek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-maturek/Pods-maturek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-maturek/Pods-maturek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F4DBC36E639535241DCF7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-maturek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E2D5CCE29F30987009AEC55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0E2D5CEF29F30C9C009AEC55 /* listOfSubjectsView.swift in Sources */,
-				0E2D5CEA29F30BEB009AEC55 /* settingsView.swift in Sources */,
 				0E7B1EE62A1803D400ADC846 /* accountStatsView.swift in Sources */,
+				0E176ACB2A27AE960053489F /* ContentView.swift in Sources */,
+				0E176ACD2A27AE960053489F /* CreateForm.swift in Sources */,
+				0E176ACC2A27AE960053489F /* LaunchView.swift in Sources */,
+				0E176ACF2A27AE960053489F /* LoginForm.swift in Sources */,
 				0E2D5CEC29F30C6E009AEC55 /* newsView.swift in Sources */,
 				0E2D5CD829F30987009AEC55 /* mainScreenView.swift in Sources */,
-				0EB68AD22A17B5B9004C4741 /* quizView.swift in Sources */,
 				0E2D5CD629F30987009AEC55 /* maturekApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +429,7 @@
 		};
 		0E2D5CE129F30989009AEC55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923CFA988B90826C22E17A33 /* Pods-maturek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +459,7 @@
 		};
 		0E2D5CE229F30989009AEC55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E07B32CAE2DB3D5A093AB70 /* Pods-maturek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

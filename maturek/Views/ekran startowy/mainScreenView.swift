@@ -26,34 +26,13 @@ struct mainScreenView: View {
                         
                     }
                 }
-            
-            quizView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "chart.bar.doc.horizontal")
-                        
-                    }
-                }
-            
             accountStatsView()
                 .tabItem {
                     VStack {
                         Image(systemName: "person.circle.fill")
                         
                     }
-                }
-            
-            settingsView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "gear")
-                        
-                    }
-                }
-            
-            
-           
-            
+                }    
         }
     }
 }
