@@ -41,6 +41,7 @@ struct ContentView: View {
                 NavigationLink {
                     // destination view to navigation to
                     mainScreenView()
+                    
                 } label: {
                     Text("Przejdz do maturka")
                         .foregroundColor(.gray)

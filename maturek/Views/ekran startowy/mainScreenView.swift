@@ -9,31 +9,34 @@ import SwiftUI
 
 struct mainScreenView: View {
     var body: some View {
-        TabView {
-            
-            listOfSubjectsView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "list.bullet")
-                        
+        NavigationView {
+            TabView {
+                
+                listOfSubjectsView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "list.bullet")
+                            
+                        }
                     }
-                }
-            
-            newsView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "newspaper")
-                        
+                
+                newsView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "newspaper")
+                            
+                        }
                     }
-                }
-            accountStatsView()
-                .tabItem {
-                    VStack {
-                        Image(systemName: "person.circle.fill")
-                        
+                accountStatsView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "person.circle.fill")
+                            
+                        }
                     }
-                }    
-        }
+            }
+
+        }.navigationBarBackButtonHidden(true)
     }
 }
 
