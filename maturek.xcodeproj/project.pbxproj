@@ -58,9 +58,9 @@
 		0E176AC42A27ADEB0053489F /* ekran startowy */ = {
 			isa = PBXGroup;
 			children = (
+				0ED5548A2A2E3EB300F7AEBE /* NewsFeed */,
 				0E2D5CF029F30D52009AEC55 /* accountStatsView.swift */,
 				0E2D5CEE29F30C9C009AEC55 /* listOfSubjectsView.swift */,
-				0E2D5CEB29F30C6E009AEC55 /* newsView.swift */,
 				0E2D5CD729F30987009AEC55 /* mainScreenView.swift */,
 			);
 			path = "ekran startowy";
@@ -163,6 +163,14 @@
 			children = (
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0ED5548A2A2E3EB300F7AEBE /* NewsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				0E2D5CEB29F30C6E009AEC55 /* newsView.swift */,
+			);
+			path = NewsFeed;
 			sourceTree = "<group>";
 		};
 		ACACA8EDC95A60862ED4A6BC /* Frameworks */ = {
