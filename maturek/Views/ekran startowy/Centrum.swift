@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct Centrum: View {
+    
+  
+    
     var body: some View {
         Text("W tym miejscu pojawi sie lista przedmiotow/kursow")
-    }
-}
-
-struct Centrum_Previews: PreviewProvider {
-    static var previews: some View {
-        Centrum()
+        
     }
 }

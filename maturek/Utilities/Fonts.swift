@@ -21,4 +21,6 @@ import SwiftUI
 extension Font {
     
     public static var TabViewCzcionka = Font.custom("SF-Pro-Text-Semibold", size: 15)
+    public static var LaunchViewMniejsza = Font.custom("SF-Pro-Display-Medium", size: 16)
+    public static var LaunchViewWieksza = Font.custom("SF-Pro-Rounded-Bold", size: 36)
 }

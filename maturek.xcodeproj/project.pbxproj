@@ -20,6 +20,7 @@
 		0E2D5CF329F30F6F009AEC55 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF229F30F6F009AEC55 /* quiz.json */; };
 		0E7B1EE62A1803D400ADC846 /* Biblioteka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF029F30D52009AEC55 /* Biblioteka.swift */; };
 		0E80EB542A3B5F3200FE4A63 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E80EB532A3B5F3200FE4A63 /* Fonts.swift */; };
+		0E80EB582A3B6D3500FE4A63 /* chwilowy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E80EB572A3B6D3500FE4A63 /* chwilowy.swift */; };
 		0EF47CC62A27ABFC00E9F698 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF47CC52A27ABFC00E9F698 /* GoogleService-Info.plist */; };
 		22C2FA08777DE3FD5044B151 /* Pods_maturek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DCF6E1AC888F6DC0618278 /* Pods_maturek.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,9 @@
 		0E2D5CF229F30F6F009AEC55 /* quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
 		0E80EB522A3B5EFE00FE4A63 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
 		0E80EB532A3B5F3200FE4A63 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		0E80EB572A3B6D3500FE4A63 /* chwilowy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chwilowy.swift; sourceTree = "<group>"; };
+		0E80EB592A3B6E0500FE4A63 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		0E80EB5A2A3B718C00FE4A63 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
 		0EF47CC52A27ABFC00E9F698 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E07B32CAE2DB3D5A093AB70 /* Pods-maturek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maturek.release.xcconfig"; path = "Target Support Files/Pods-maturek/Pods-maturek.release.xcconfig"; sourceTree = "<group>"; };
 		923CFA988B90826C22E17A33 /* Pods-maturek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-maturek.debug.xcconfig"; path = "Target Support Files/Pods-maturek/Pods-maturek.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 				0E176AC82A27AE930053489F /* CreateForm.swift */,
 				0E176AC72A27AE910053489F /* LaunchView.swift */,
 				0E176ACA2A27AE960053489F /* LoginForm.swift */,
+				0E80EB572A3B6D3500FE4A63 /* chwilowy.swift */,
 			);
 			path = "ekran logowania ";
 			sourceTree = "<group>";
@@ -173,6 +178,8 @@
 		0E80EB512A3B5EF500FE4A63 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				0E80EB5A2A3B718C00FE4A63 /* SF-Pro-Rounded-Bold.otf */,
+				0E80EB592A3B6E0500FE4A63 /* SF-Pro-Display-Medium.otf */,
 				0E80EB522A3B5EFE00FE4A63 /* SF-Pro-Text-Semibold.otf */,
 			);
 			path = Fonts;
@@ -311,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E80EB582A3B6D3500FE4A63 /* chwilowy.swift in Sources */,
 				0E2D5CEF29F30C9C009AEC55 /* Centrum.swift in Sources */,
 				0E7B1EE62A1803D400ADC846 /* Biblioteka.swift in Sources */,
 				0E176ACB2A27AE960053489F /* ContentView.swift in Sources */,
