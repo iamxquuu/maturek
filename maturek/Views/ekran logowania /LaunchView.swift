@@ -65,7 +65,7 @@ struct LaunchView: View {
             }
             else {
                 //show logged in View
-                ContentView(loggedIn: $loggedIn)
+                mainScreenView(loggedIn: $loggedIn)
             }
             
         }

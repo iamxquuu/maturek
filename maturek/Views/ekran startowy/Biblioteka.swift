@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct accountStatsView: View {
+struct Biblioteka: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack{
@@ -180,8 +180,8 @@ struct accountStatsView: View {
     }
 }
 
-struct accountStatsView_Previews: PreviewProvider {
+struct Biblioteka_Previews: PreviewProvider {
     static var previews: some View {
-        accountStatsView()
+        Biblioteka()
     }
 }

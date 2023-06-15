@@ -8,30 +8,36 @@
 import SwiftUI
 
 struct mainScreenView: View {
+    
+    @Binding var loggedIn: Bool
+    
     var body: some View {
         NavigationView {
             TabView {
                 
-                listOfSubjectsView()
+                Centrum()
                     .tabItem {
                         VStack {
-                            Image(systemName: "list.bullet")
-                            
+                            Image(systemName: "house.fill")
+                            Text("Centrum")
+                                
                         }
                     }
                 
-                newsView()
+                Odkryj()
                     .tabItem {
                         VStack {
-                            Image(systemName: "newspaper")
-                            
+                            Image(systemName: "magnifyingglass")
+                            Text("Odkryj")
+                                
                         }
                     }
-                accountStatsView()
+                Biblioteka()
                     .tabItem {
                         VStack {
-                            Image(systemName: "person.circle.fill")
-                            
+                            Image(systemName: "bookmark.fill")
+                            Text("Biblioteka")
+                                
                         }
                     }
             }
@@ -40,8 +46,3 @@ struct mainScreenView: View {
     }
 }
 
-struct mainScreenView_Previews: PreviewProvider {
-    static var previews: some View {
-        mainScreenView()
-    }
-}

@@ -40,7 +40,7 @@ struct ContentView: View {
                
                 NavigationLink {
                     // destination view to navigation to
-                    mainScreenView()
+                    mainScreenView(loggedIn: $loggedIn)
                     
                 } label: {
                     Text("Przejdz do maturka")

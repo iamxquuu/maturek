@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct listOfSubjectsView: View {
+struct Centrum: View {
     var body: some View {
         Text("W tym miejscu pojawi sie lista przedmiotow/kursow")
     }
 }
 
-struct listOfSubjectsView_Previews: PreviewProvider {
+struct Centrum_Previews: PreviewProvider {
     static var previews: some View {
-        listOfSubjectsView()
+        Centrum()
     }
 }

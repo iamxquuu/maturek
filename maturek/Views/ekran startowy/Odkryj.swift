@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct newsView: View {
+struct Odkryj: View {
     var body: some View {
         
         GeometryReader { geo in
@@ -74,8 +74,8 @@ struct newsView: View {
     }
 }
 
-struct newsView_Previews: PreviewProvider {
+struct Odkryj_Previews: PreviewProvider {
     static var previews: some View {
-        newsView()
+        Odkryj()
     }
 }
