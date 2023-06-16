@@ -18,9 +18,9 @@
 		0E2D5CEC29F30C6E009AEC55 /* Odkryj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CEB29F30C6E009AEC55 /* Odkryj.swift */; };
 		0E2D5CEF29F30C9C009AEC55 /* Centrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CEE29F30C9C009AEC55 /* Centrum.swift */; };
 		0E2D5CF329F30F6F009AEC55 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF229F30F6F009AEC55 /* quiz.json */; };
+		0E7413EA2A3CBA3F00FAC162 /* reusableTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7413E92A3CBA3F00FAC162 /* reusableTitle.swift */; };
 		0E7B1EE62A1803D400ADC846 /* Biblioteka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF029F30D52009AEC55 /* Biblioteka.swift */; };
 		0E80EB542A3B5F3200FE4A63 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E80EB532A3B5F3200FE4A63 /* Fonts.swift */; };
-		0E80EB582A3B6D3500FE4A63 /* chwilowy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E80EB572A3B6D3500FE4A63 /* chwilowy.swift */; };
 		0EF47CC62A27ABFC00E9F698 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF47CC52A27ABFC00E9F698 /* GoogleService-Info.plist */; };
 		22C2FA08777DE3FD5044B151 /* Pods_maturek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DCF6E1AC888F6DC0618278 /* Pods_maturek.framework */; };
 /* End PBXBuildFile section */
@@ -39,9 +39,10 @@
 		0E2D5CEE29F30C9C009AEC55 /* Centrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centrum.swift; sourceTree = "<group>"; };
 		0E2D5CF029F30D52009AEC55 /* Biblioteka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biblioteka.swift; sourceTree = "<group>"; };
 		0E2D5CF229F30F6F009AEC55 /* quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		0E7413E92A3CBA3F00FAC162 /* reusableTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reusableTitle.swift; sourceTree = "<group>"; };
+		0E7413EB2A3CC01400FAC162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0E80EB522A3B5EFE00FE4A63 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
 		0E80EB532A3B5F3200FE4A63 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
-		0E80EB572A3B6D3500FE4A63 /* chwilowy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chwilowy.swift; sourceTree = "<group>"; };
 		0E80EB592A3B6E0500FE4A63 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
 		0E80EB5A2A3B718C00FE4A63 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
 		0EF47CC52A27ABFC00E9F698 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 				0E2D5CF029F30D52009AEC55 /* Biblioteka.swift */,
 				0E2D5CEE29F30C9C009AEC55 /* Centrum.swift */,
 				0E2D5CD729F30987009AEC55 /* mainScreenView.swift */,
+				0E7413E92A3CBA3F00FAC162 /* reusableTitle.swift */,
 			);
 			path = "ekran startowy";
 			sourceTree = "<group>";
@@ -80,7 +82,6 @@
 				0E176AC82A27AE930053489F /* CreateForm.swift */,
 				0E176AC72A27AE910053489F /* LaunchView.swift */,
 				0E176ACA2A27AE960053489F /* LoginForm.swift */,
-				0E80EB572A3B6D3500FE4A63 /* chwilowy.swift */,
 			);
 			path = "ekran logowania ";
 			sourceTree = "<group>";
@@ -106,6 +107,7 @@
 		0E2D5CD429F30987009AEC55 /* maturek */ = {
 			isa = PBXGroup;
 			children = (
+				0E7413EB2A3CC01400FAC162 /* Info.plist */,
 				0E2D5CD529F30987009AEC55 /* maturekApp.swift */,
 				0E2D5CE329F30A8A009AEC55 /* Views */,
 				0E2D5CE429F30B72009AEC55 /* ViewModels */,
@@ -318,8 +320,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E80EB582A3B6D3500FE4A63 /* chwilowy.swift in Sources */,
 				0E2D5CEF29F30C9C009AEC55 /* Centrum.swift in Sources */,
+				0E7413EA2A3CBA3F00FAC162 /* reusableTitle.swift in Sources */,
 				0E7B1EE62A1803D400ADC846 /* Biblioteka.swift in Sources */,
 				0E176ACB2A27AE960053489F /* ContentView.swift in Sources */,
 				0E176ACD2A27AE960053489F /* CreateForm.swift in Sources */,
@@ -461,6 +463,7 @@
 				DEVELOPMENT_TEAM = 4PYNB7HDRT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = maturek/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +494,7 @@
 				DEVELOPMENT_TEAM = 4PYNB7HDRT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = maturek/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

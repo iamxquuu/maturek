@@ -9,7 +9,34 @@ import SwiftUI
 
 struct Odkryj: View {
     var body: some View {
-        Text("Odkryj")
+        ZStack {
+            Rectangle()
+                .ignoresSafeArea()
+                .foregroundColor(Color("backgroundColor"))
+            ScrollView {
+                VStack {
+                    reusableTitle(BigTitle: "Odkyj", Title: "Szukaj")
+                    // przycisk wyszukaj
+                    Button {
+                        
+                    } label: {
+                        ZStack() {
+                            RoundedRectangle(cornerRadius: 20)
+                                .foregroundColor(.white)
+                                .padding(.horizontal)
+                                .frame(height: 60)
+                            HStack {
+                                Text("Czego chcesz się dzisiaj nauczyć?")
+                                    .font(.subheadline)
+                                Spacer()
+                                Image(systemName: "magnifyingglass")
+                            }.padding(.horizontal, 30)
+                        }
+                    }
+                    Spacer()
+                }
+            }
+        }
     }
 }
 
