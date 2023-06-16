@@ -10,7 +10,23 @@ import SwiftUI
 struct Centrum: View {
 
     var body: some View {
-        Text("Centrum")
         
+        ZStack {
+            Rectangle()
+                .ignoresSafeArea()
+                .foregroundColor(Color("backgroundColor"))
+            ScrollView {
+                VStack {
+                    reusableTitle(BigTitle: "Centrum", Title: "Newsy")
+                    Spacer()
+                    
+                }
+            }
+        }
+    }
+}
+struct Centrum_Previews: PreviewProvider {
+    static var previews: some View {
+        Centrum()
     }
 }
