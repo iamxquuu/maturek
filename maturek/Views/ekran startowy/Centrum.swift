@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct Centrum: View {
-    
-  
-    
+
     var body: some View {
-        Text("W tym miejscu pojawi sie lista przedmiotow/kursow")
+        Text("Centrum")
         
     }
 }
