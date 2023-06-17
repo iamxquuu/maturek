@@ -18,6 +18,9 @@
 		0E2D5CEC29F30C6E009AEC55 /* Odkryj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CEB29F30C6E009AEC55 /* Odkryj.swift */; };
 		0E2D5CEF29F30C9C009AEC55 /* Centrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CEE29F30C9C009AEC55 /* Centrum.swift */; };
 		0E2D5CF329F30F6F009AEC55 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF229F30F6F009AEC55 /* quiz.json */; };
+		0E6194432A3CD688004B7F02 /* reusableTitleWithPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6194422A3CD688004B7F02 /* reusableTitleWithPhoto.swift */; };
+		0E6194452A3CD924004B7F02 /* reusableWithBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6194442A3CD924004B7F02 /* reusableWithBackButton.swift */; };
+		0E6194472A3CDACA004B7F02 /* widokSubskrypcji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6194462A3CDACA004B7F02 /* widokSubskrypcji.swift */; };
 		0E7413EA2A3CBA3F00FAC162 /* reusableTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7413E92A3CBA3F00FAC162 /* reusableTitle.swift */; };
 		0E7B1EE62A1803D400ADC846 /* Biblioteka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2D5CF029F30D52009AEC55 /* Biblioteka.swift */; };
 		0E80EB542A3B5F3200FE4A63 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E80EB532A3B5F3200FE4A63 /* Fonts.swift */; };
@@ -39,6 +42,9 @@
 		0E2D5CEE29F30C9C009AEC55 /* Centrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Centrum.swift; sourceTree = "<group>"; };
 		0E2D5CF029F30D52009AEC55 /* Biblioteka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biblioteka.swift; sourceTree = "<group>"; };
 		0E2D5CF229F30F6F009AEC55 /* quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
+		0E6194422A3CD688004B7F02 /* reusableTitleWithPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reusableTitleWithPhoto.swift; sourceTree = "<group>"; };
+		0E6194442A3CD924004B7F02 /* reusableWithBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reusableWithBackButton.swift; sourceTree = "<group>"; };
+		0E6194462A3CDACA004B7F02 /* widokSubskrypcji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widokSubskrypcji.swift; sourceTree = "<group>"; };
 		0E7413E92A3CBA3F00FAC162 /* reusableTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reusableTitle.swift; sourceTree = "<group>"; };
 		0E7413EB2A3CC01400FAC162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0E80EB522A3B5EFE00FE4A63 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
@@ -66,11 +72,12 @@
 		0E176AC42A27ADEB0053489F /* ekran startowy */ = {
 			isa = PBXGroup;
 			children = (
+				0E6194412A3CD66B004B7F02 /* Reusable */,
 				0E2D5CEB29F30C6E009AEC55 /* Odkryj.swift */,
 				0E2D5CF029F30D52009AEC55 /* Biblioteka.swift */,
 				0E2D5CEE29F30C9C009AEC55 /* Centrum.swift */,
 				0E2D5CD729F30987009AEC55 /* mainScreenView.swift */,
-				0E7413E92A3CBA3F00FAC162 /* reusableTitle.swift */,
+				0E6194462A3CDACA004B7F02 /* widokSubskrypcji.swift */,
 			);
 			path = "ekran startowy";
 			sourceTree = "<group>";
@@ -175,6 +182,16 @@
 				0E80EB532A3B5F3200FE4A63 /* Fonts.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0E6194412A3CD66B004B7F02 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				0E7413E92A3CBA3F00FAC162 /* reusableTitle.swift */,
+				0E6194422A3CD688004B7F02 /* reusableTitleWithPhoto.swift */,
+				0E6194442A3CD924004B7F02 /* reusableWithBackButton.swift */,
+			);
+			path = Reusable;
 			sourceTree = "<group>";
 		};
 		0E80EB512A3B5EF500FE4A63 /* Fonts */ = {
@@ -322,6 +339,9 @@
 			files = (
 				0E2D5CEF29F30C9C009AEC55 /* Centrum.swift in Sources */,
 				0E7413EA2A3CBA3F00FAC162 /* reusableTitle.swift in Sources */,
+				0E6194472A3CDACA004B7F02 /* widokSubskrypcji.swift in Sources */,
+				0E6194452A3CD924004B7F02 /* reusableWithBackButton.swift in Sources */,
+				0E6194432A3CD688004B7F02 /* reusableTitleWithPhoto.swift in Sources */,
 				0E7B1EE62A1803D400ADC846 /* Biblioteka.swift in Sources */,
 				0E176ACB2A27AE960053489F /* ContentView.swift in Sources */,
 				0E176ACD2A27AE960053489F /* CreateForm.swift in Sources */,

@@ -10,18 +10,36 @@ import SwiftUI
 struct Centrum: View {
 
     var body: some View {
-        
-        ZStack {
-            Rectangle()
-                .ignoresSafeArea()
-                .foregroundColor(Color("backgroundColor"))
-            ScrollView {
-                VStack {
-                    reusableTitle(BigTitle: "Centrum", Title: "Newsy")
-                    Spacer()
-                    
+        NavigationView {
+            ZStack {
+                Rectangle()
+                    .ignoresSafeArea()
+                    .foregroundColor(Color("backgroundColor"))
+                ScrollView {
+                    VStack {
+                        reusableTitleWithPhoto(BigTitle: "Centrum", Title: "Newsy", ImageTitle: "person.crop.circle")
+                        
+                        
+                        NavigationLink {
+                            widokSubskrypcji()
+                        } label: {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 20)
+                                    .foregroundColor(.white)
+                                    .padding(.horizontal)
+                                    .frame(height: 60)
+                                HStack {
+                                    Text("Zasubskrybuj MATUREK+")
+                                        .font(.subheadline)
+                                    
+                                }
+                            }
+                        }
+                        Spacer()
+                    }
                 }
             }
+
         }
     }
 }
