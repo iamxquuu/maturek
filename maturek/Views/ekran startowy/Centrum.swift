@@ -47,7 +47,16 @@ struct Centrum: View {
                             }
                         }
                         secondSubtitle(title: "Nasze Social Media")
-                        //Link("Twitter", destination: URL(string: "https://twitter.com/maturekpl")!)
+                    // MARK: social media
+                        Group{
+                            //Twitter
+                            Link("Twitter", destination: URL(string: "https://twitter.com/maturekpl")!)
+                            //Youtube
+                            Link("Youtube", destination: URL(string: "https://www.youtube.com/@maturek")!)
+                            //Instagram
+                            Link("Instagram", destination: URL(string: "https://www.instagram.com/maturekpl")!)
+                        }
+                        
                         
                         Spacer()
                     }
