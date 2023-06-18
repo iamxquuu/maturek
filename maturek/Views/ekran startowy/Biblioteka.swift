@@ -17,6 +17,7 @@ struct Biblioteka: View {
             ScrollView {
                 VStack {
                     reusableTitle(BigTitle: "Biblioteka", Title: "Subskrypcja")
+                    secondSubtitle(title: "Zakup Jednorazowy")
                     Spacer()
                     
                     }

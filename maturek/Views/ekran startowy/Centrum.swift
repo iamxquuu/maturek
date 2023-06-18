@@ -16,25 +16,39 @@ struct Centrum: View {
                     .ignoresSafeArea()
                     .foregroundColor(Color("backgroundColor"))
                 ScrollView {
-                    VStack {
+                    VStack(alignment: .leading) {
                         reusableTitleWithPhoto(BigTitle: "Centrum", Title: "Newsy", ImageTitle: "person.crop.circle")
                         
-                        
+                        VStack(alignment: .leading) {
+                            
+                            reusableRectangle(cornerRadius: 15, height: 120)
+                                .foregroundColor(.white)
+                            Text("*aby zobaczyć więcej, rozwiń klikając!")
+                                .foregroundColor(.blue)
+                                .font(.subheadline)
+                                .padding(.leading, 20)
+                                
+                            
+                        }
+                        secondSubtitle(title: "Subskrypcja")
                         NavigationLink {
                             widokSubskrypcji()
                         } label: {
                             ZStack {
-                                RoundedRectangle(cornerRadius: 20)
-                                    .foregroundColor(.white)
+                                RoundedRectangle(cornerRadius: 15)
+                                    .foregroundColor(.black)
                                     .padding(.horizontal)
                                     .frame(height: 60)
                                 HStack {
                                     Text("Zasubskrybuj MATUREK+")
-                                        .font(.subheadline)
+                                        .font(.headline)
                                     
                                 }
                             }
                         }
+                        secondSubtitle(title: "Nasze Social Media")
+                        //Link("Twitter", destination: URL(string: "https://twitter.com/maturekpl")!)
+                        
                         Spacer()
                     }
                 }

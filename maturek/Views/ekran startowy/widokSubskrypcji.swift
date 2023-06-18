@@ -18,6 +18,7 @@ struct widokSubskrypcji: View {
                 VStack {
                     reusableWithBackButton(BigTitle: "Subskrypcja", Title: "Oferta")
                     Spacer()
+                    
                 }
             }
         }
