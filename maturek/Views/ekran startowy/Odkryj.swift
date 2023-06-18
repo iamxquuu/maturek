@@ -15,7 +15,7 @@ struct Odkryj: View {
                 .foregroundColor(Color("backgroundColor"))
             ScrollView {
                 VStack {
-                    reusableTitle(BigTitle: "Odkyj", Title: "Szukaj")
+                    reusableTitle(BigTitle: "Odkryj", Title: "Szukaj")
                     // przycisk wyszukaj
                     Button {
                         
@@ -33,6 +33,7 @@ struct Odkryj: View {
                             }.padding(.horizontal, 30)
                         }
                     }
+                    secondSubtitle(title: "Przeglądaj")
                     Spacer()
                 }
             }
